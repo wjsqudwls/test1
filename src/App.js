@@ -14,7 +14,7 @@ const App = () => {
       id: users.length + 1,
       name: name,
     };
-    setUsers([...users.newUser]);
+    setUsers([...users, newUser]);
   };
 
   return (
